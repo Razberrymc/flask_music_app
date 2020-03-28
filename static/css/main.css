@@ -1,0 +1,36 @@
+h1 {
+    font-family: "Raleway", "Helvetica", "Verdana", sans-serif;
+    padding: 30px;
+    text-align: center;
+    background: #5CDB95;
+    font-size: 320%;
+}
+
+p, #text {
+    font-family: "Merriweather", "Times New Roman", serif;
+    padding: 15px 30px 15px 30px;
+    text-align: center;
+    font-size: 140%;
+}
+
+li {
+  font-family: "Merriweather", "Times New Roman", serif;
+  padding: 0px 30px 15px 30px;
+  text-align: left;
+  font-size: 120%;
+  list-style-type: none;
+}
+
+@media (min-width: 792px) {
+  li {
+    margin-left: 150px;
+  }
+}
+
+@media (min-width: 1110px) {
+  li {
+    text-align: center;
+    margin-left: 0px;
+    margin-right: 35px;
+  }
+}

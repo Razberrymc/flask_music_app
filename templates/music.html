@@ -1,0 +1,11 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+
+<h1>{{ mus['name'] }}</h1>
+
+<p>{{ mus['name'] }} by {{ mus['artists'] }} was the {{ ord }} most popular song of 2018. In terms of dynamics, this song has a tempo of {{ mus['tempo'] }} beats per minute, averages {{ mus['loudness'] }} decibels and is {{ mus['duration_ms'] }} milliseconds in length. Spotify's overall valence score for this track, which is the musical positiveness conveyed by the song measured from 0 to 1, is {{ mus['valence'] }}.
+</p>
+
+{% endblock %}
